@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../images/favicon.ico">
+
+    <title>کریپتو ادمین - قالب HTML مدیریت ارز دیجیتال</title>
+  
+	<!-- Bootstrap 4.0-->
+	<link rel="stylesheet" href="../../assets/vendor_components/bootstrap/dist/css/bootstrap-rtl.min.css">
+	
+	<!-- Data Table-->
+	<link rel="stylesheet" type="text/css" href="../../assets/vendor_components/datatable/datatables.min.css"/>
+	
+	<!-- theme style -->
+	<link rel="stylesheet" href="../css/style.css">
+	
+	<!-- Admin skins -->
+	<link rel="stylesheet" href="../css/skin_color.css">	
+
+</head>
+<body class="hold-transition dark-skin dark-sidebar sidebar-mini theme-yellow rtl">
+	
+<!-- Site wrapper -->
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="../index.html" class="logo">
+      <!-- mini logo -->
+	  <div class="logo-mini">
+		  <span class="light-logo"><img src="../../images/logo-light.png" alt="لوگو"></span>
+		  <span class="dark-logo"><img src="../../images/logo-dark.png" alt="لوگو"></span>
+	  </div>
+      <!-- logo-->
+      <div class="logo-lg">
+		  <span class="light-logo"><img src="../../images/logo-light-text.png" alt="لوگو"></span>
+	  	  <span class="dark-logo"><img src="../../images/logo-dark-text.png" alt="لوگو"></span>
+	  </div>
+    </a>
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+	  <div>
+		  <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+			<i class="ti-align-left"></i>
+		  </a>
+		  
+		  <a href="#" data-provide="fullscreen" class="sidebar-toggle" title="تمام صفحه">
+			<i class="mdi mdi-crop-free"></i>
+		  </a> 
+		
+	  </div>
+		
+      <div class="navbar-custom-menu r-side">
+        <ul class="nav navbar-nav">
+		  <!-- full Screen -->
+	      <li class="search-bar">		  
+			  <div class="lookup lookup-circle lookup-right">
+			     <input type="text" name="s">
+			  </div>
+		  </li>			
+		  <!-- Messages -->
+		  <li class="dropdown messages-menu">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="پیام ها">
+			  <i class="mdi mdi-email"></i>
+			</a>
+			<ul class="dropdown-menu animated bounceIn">
+
+			  <li class="header">
+				<div class="p-20">
+					<div class="flexbox">
+						<div>
+							<h4 class="mb-0 mt-0">پیام ها</h4>
+						</div>
+						<div>
+							<a href="#" class="text-danger">پاک کردن همه</a>
+						</div>
+					</div>
+				</div>
+			  </li>
+			  <li>
+				<!-- inner menu: contains the actual data -->
+				<ul class="menu sm-scrol">
+				  <li><!-- start message -->
+					<a href="#">
+					  <div class="pull-left">
+						<img src="../../images/user2-160x160.jpg" class="rounded-circle" alt="تصویر کاربر">
+					  </div>
+					  <div class="mail-contnet">
+						 <h4>
+						  شیدا امیری
+						  <small><i class="fa fa-clock-o"></i> 15 دقیقه قبل </small>
+						 </h4>
+						 <span>مجموعه ای از کامل ترین و جامع ترین دوره ها درباره ارز دیجیتال .</span>
+					  </div>
+					</a>
+				  </li>
+				  <!-- end message -->
+				  <li>
+					<a href="#">
+					  <div class="pull-left">
+						<img src="../../images/user3-128x128.jpg" class="rounded-circle" alt="تصویر کاربر">
+					  </div>
+					  <div class="mail-contnet">
+						 <h4>
+						  سحر حمیدی
+						  <small><i class="fa fa-clock-o"></i> 4 ساعت قبل </small>
+						 </h4>
+						 <span>سلام وقت بخیر ، یک فایل جدید براتون فرستادم لطفا بررسیش کنید </span>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="pull-left">
+						<img src="../../images/user4-128x128.jpg" class="rounded-circle" alt="تصویر کاربر">
+					  </div>
+					  <div class="mail-contnet">
+						 <h4>
+						  ندا محسنی
+						  <small><i class="fa fa-clock-o"></i> امروز </small>
+						 </h4>
+						 <span>سلام ، پیج جدید فروشگاه در اینستاگرام راه اندازی شده .</span>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="pull-left">
+						<img src="../../images/user3-128x128.jpg" class="rounded-circle" alt="تصویر کاربر">
+					  </div>
+					  <div class="mail-contnet">
+						 <h4>
+						  مهسا افشار
+						<small><i class="fa fa-clock-o"></i> دیروز </small>
+						 </h4>
+						 <span>توی طرح طاها بدون شک ویلای مورد نظرت رو پیدا میکنی !</span>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <div class="pull-left">
+						<img src="../../images/user4-128x128.jpg" class="rounded-circle" alt="تصویر کاربر">
+					  </div>
+					  <div class="mail-contnet">
+						 <h4>
+						  مونا کبیری
+						  <small><i class="fa fa-clock-o"></i> دو روز قبل </small>
+						 </h4>
+						 <span>دوره حضوری و آنلاین مدیریت دیجیتال مارکتینگ</span>
+					  </div>
+
+					</a>
+				  </li>
+				</ul>
+			  </li>
+			  <li class="footer">				  
+				  <a href="#">مشاهده همه ایمیل ها</a>
+			  </li>
+			</ul>
+		  </li>
+		  <!-- Notifications -->
+		  <li class="dropdown notifications-menu">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="نوتیفیکیشن ها">
+			  <i class="mdi mdi-bell"></i>
+			</a>
+			<ul class="dropdown-menu animated bounceIn">
+
+			  <li class="header">
+				<div class="p-20">
+					<div class="flexbox">
+						<div>
+							<h4 class="mb-0 mt-0">نوتیفیکیشن ها</h4>
+						</div>
+						<div>
+							<a href="#" class="text-danger">پاک کردن همه</a>
+						</div>
+					</div>
+				</div>
+			  </li>
+
+			  <li>
+				<!-- inner menu: contains the actual data -->
+				<ul class="menu sm-scrol">
+				  <li>
+					<a href="#">
+					  <i class="fa fa-users text-info"></i> یک کاربر جدید ثبت نام کرد.
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-warning text-warning"></i> یادآوری : بررسی گزارشات ماهانه !
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-users text-danger"></i> حساب کاربران جدید آپدیت شد .
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-shopping-cart text-success"></i> 4 محصول جدید اضافه شد .
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-user text-danger"></i> دانیال عبادی برای شما یک عکس فرستاد.
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-user text-primary"></i> درخواست شما ارسال شد
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-user text-primary"></i> عکس پروفایل شما آپدیت شد
+					</a>
+				  </li>
+				</ul>
+			  </li>
+			  <li class="footer">
+				  <a href="#">مشاهده همه</a>
+			  </li>
+			</ul>
+		  </li>	
+		  <!-- Tasks -->
+		  <li class="dropdown messages-menu">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="تسک ها">
+			  <i class="mdi mdi-comment-alert"></i>
+			</a>
+			<ul class="dropdown-menu animated bounceIn">
+
+			  <li class="header">
+				<div class="p-20">
+					<div class="flexbox">
+						<div>
+							<h4 class="mb-0 mt-0">شما 6 تسک دارید</h4>
+						</div>
+						<div>
+							<a href="#" class="text-danger">پاک کردن همه</a>
+						</div>
+					</div>
+				</div>
+			  </li>
+			  <li>
+				<!-- inner menu: contains the actual data -->
+				<ul class="menu sm-scrol">
+				  <li><!-- Task item -->
+                    <a href="#">
+                      <h6>
+                       طراحی بخش جدید در نرم افزار
+                        <small class="pull-right">30%</small>
+                      </h6>
+                      <div class="progress xs mb-0">
+                        <div class="progress-bar progress-bar-primary" style="width: 30%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">30% Complete<te</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h6>
+                       جمع کردن تیم طراحی  برای  پروژه جدید
+                        <small class="pull-right">20%</small>
+                      </h6>
+                      <div class="progress xs mb-0">
+                        <div class="progress-bar progress-bar-danger" style="width: 20%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h6>
+                        اصلاح فایل های جاوااسکریپت پروژه
+                        <small class="pull-right">70%</small>
+                      </h6>
+                      <div class="progress xs mb-0">
+                        <div class="progress-bar progress-bar-info" style="width: 70%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">70% تکمیل</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h6>
+                        بازنویسی عنوان صفحات سایت
+                        <small class="pull-right">40%</small>
+                      </h6>
+                      <div class="progress xs mb-0">
+                        <div class="progress-bar progress-bar-warning" style="width: 40%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">40% تکمیل</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h6>
+                        آپدیت محتوای سایت
+                        <small class="pull-right">80%</small>
+                      </h6>
+                      <div class="progress xs mb-0">
+                        <div class="progress-bar progress-bar-danger" style="width: 80%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">80% تکمیل</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h6>
+                        تهیه لیست خرید
+                        <small class="pull-right">90%</small>
+                      </h6>
+                      <div class="progress xs mb-0">
+                        <div class="progress-bar progress-bar-primary" style="width: 90%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">90% تکمیل</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+				</ul>
+			  </li>
+			  <li class="footer">				  
+				  <a href="#">مشاهده همه تسک ها</a>
+			  </li>
+			</ul>
+		  </li>	
+			
+		  <!-- User Account-->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="کاربر">
+              <img src="../../images/avatar/7.jpg" class="user-image rounded-circle" alt="تصویر کاربر">
+            </a>
+            <ul class="dropdown-menu animated flipInX">
+              <!-- User image -->
+              <li class="user-header bg-img" style="background-image: url(../../images/user-info.jpg)" data-overlay="3">
+				  <div class="flexbox align-self-center">					  
+				  	<img src="../../images/avatar/7.jpg" class="float-left rounded-circle" alt="تصویر کاربر">					  
+					<h4 class="user-name align-self-center">
+					  <span>علیرضا پارسافرد</span>
+					  <small>alireza@gmail.com</small>
+					</h4>
+				  </div>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+				    <a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-person"></i> پروفایل من </a>
+					<a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-bag"></i> کیف پول من </a>
+					<a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-email-unread"></i> صندوق پستی </a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="javascript:void(0)"><i class="ion ion-settings"></i> تنظیمات حساب </a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="javascript:void(0)"><i class="ion-log-out"></i> خروج </a>
+					<div class="dropdown-divider"></div>
+					<div class="p-10"><a href="javascript:void(0)" class="btn btn-sm btn-rounded btn-success"> مشاهده پروفایل </a></div>
+              </li>
+            </ul>
+          </li>	
+			
+		  
+          <!-- Control Sidebar Toggle Button -->
+          <li>
+            <a href="#" data-toggle="control-sidebar" title="تنظیمات"><i class="fa fa-cog fa-spin"></i></a>
+          </li>
+			
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar-->
+    <section class="sidebar">	
+		
+        <div class="user-profile">
+			<div class="ulogo">
+				 <a href="../index.html">
+				  <!-- logo for regular state and mobile devices -->
+				  <h3><b> کریپتو </b> ادمین </h3>
+				</a>
+			</div>
+			<div class="profile-pic">
+				<img src="../../images/user5-128x128.jpg" alt="کاربر">	
+					<div class="profile-info"><h5 class="mt-15">آرزو حسینی</h5>
+						<div class="text-center d-inline-block">
+							<a href="#" class="link" data-toggle="tooltip" title="" data-original-title="تنظیمات"><i class="ion ion-gear-b"></i></a>
+            				<a href="#" class="link px-15" data-toggle="tooltip" title="" data-original-title="صندوق پستی"><i class="ion ion-android-mail"></i></a>
+            				<a href="#" class="link" data-toggle="tooltip" title="" data-original-title="خروج"><i class="ion ion-power"></i></a>
+						</div>
+					</div>
+			</div>
+        </div>
+      
+      <!-- sidebar menu-->
+      <ul class="sidebar-menu" data-widget="tree">
+		  
+        <li class="header nav-small-cap">شخصی</li>
+		
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-dashboard"></i>
+            <span>دشبرد</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="../index.html"><i class="ti-more"></i>دشبرد 1</a></li>
+            <li><a href="../index-2.html"><i class="ti-more"></i>دشبرد 2</a></li>
+            <li><a href="../index-3.html"><i class="ti-more"></i>دشبرد 3</a></li>
+            <li><a href="../index-4.html"><i class="ti-more"></i>دشبرد 4</a></li>
+            <li><a href="../index-5.html"><i class="ti-more"></i>دشبرد 5</a></li>
+            <li><a href="../index-6.html"><i class="ti-more"></i>دشبرد 6</a></li>
+            <li><a href="../index-7.html"><i class="ti-more"></i>دشبرد 7</a></li>
+            <li><a href="../index-8.html"><i class="ti-more"></i>دشبرد 8</a></li>
+			<li><a href="../index-9.html"><i class="ti-more"></i>دشبرد 9</a></li>
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="ti-bar-chart"></i>
+            <span>گزارشات</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+			<li><a href="reports_transactions.html"><i class="ti-more"></i>تراکنش ها</a></li>
+            <li><a href="reports_top_gainers_losers.html"><i class="ti-more"></i>بازندگان/برندگان برتر</a></li>
+            <li class="active"><a href="reports_market_capitalizations.html"><i class="ti-more"></i>ارزش بازار</a></li>
+            <li><a href="reports_crypto_stats.html"><i class="ti-more"></i>وضعیت رمزارزها</a></li>
+          </ul>
+        </li> 
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-pie-chart"></i>
+            <span>عرضه اولیه کوین</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+			<li><a href="ico_distribution_countdown.html"><i class="ti-more"></i>شمارش معکوس</a></li>
+            <li><a href="ico_roadmap_timeline.html"><i class="ti-more"></i>نقشه راه / تایم لاین</a></li>
+            <li><a href="ico_progress.html"><i class="ti-more"></i>نوار پیشرفت</a></li>
+            <li><a href="ico_details.html"><i class="ti-more"></i>جزئیات</a></li>
+            <li><a href="ico_listing.html"><i class="ti-more"></i>فهرست ICO</a></li>
+            <li><a href="ico_filter.html"><i class="ti-more"></i>فهرست ICO - فیلترها</a></li>	
+          </ul>
+        </li> 
+		<li>
+          <a href="currency_exchange.html">
+            <i class="ti-reload"></i>
+            <span>تبادل ارز</span>
+          </a>
+        </li> 
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-user"></i>
+            <span>اعضا</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+			<li><a href="members.html"><i class="ti-more"></i>گرید اعضا</a></li>
+            <li><a href="members_list.html"><i class="ti-more"></i>فهرست اعضا</a></li>
+            <li><a href="member_profile.html"><i class="ti-more"></i>پروفایل اعضا</a></li>	
+          </ul>
+        </li>
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-panel"></i>
+            <span>تیکرها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="tickers.html"><i class="ti-more"></i>تیکر</a></li>
+            <li><a href="tickers_live_pricing.html"><i class="ti-more"></i>قیمت لحظه ای ارزها</a></li>	
+          </ul>
+        </li>
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-wallet"></i>
+            <span>تراکنش ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="transactions_tables.html"><i class="ti-more"></i>جدول تراکنش ها</a></li>
+            <li><a href="transaction_search.html"><i class="ti-more"></i>جستجوی تراکنش ها</a></li>	
+            <li><a href="transaction_details.html"><i class="ti-more"></i>جزئیات تراکنش ها</a></li>
+            <li><a href="transactions_counter.html"><i class="ti-more"></i>پیشخوان تراکنش ها</a></li>
+          </ul>
+        </li>
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-stats-up"></i>
+            <span>نمودارها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">			
+            <li><a href="charts_chartjs.html"><i class="ti-more"></i>ChartJS</a></li>
+            <li><a href="charts_flot.html"><i class="ti-more"></i>Flot</a></li>
+            <li><a href="charts_inline.html"><i class="ti-more"></i>Inline charts</a></li>
+            <li><a href="charts_morris.html"><i class="ti-more"></i>Morris</a></li>
+            <li><a href="charts_peity.html"><i class="ti-more"></i>Peity</a></li>
+            <li><a href="charts_chartist.html"><i class="ti-more"></i>Chartist</a></li>
+            <li><a href="charts_rickshaw.html"><i class="ti-more"></i>Rickshaw Charts</a></li>
+            <li><a href="charts_nvd3.html"><i class="ti-more"></i>NVD3 Charts</a></li>
+			<li><a href="charts_echart.html"><i class="ti-more"></i>eChart</a></li>
+			  
+			<li><a href="charts_amcharts.html"><i class="ti-more"></i>amCharts Charts</a></li>
+			<li><a href="charts_amstock_charts.html"><i class="ti-more"></i>amCharts Stock Charts</a></li>
+			<li><a href="charts_ammaps.html"><i class="ti-more"></i>amCharts Maps</a></li>
+          </ul>
+        </li>
+		
+        <li class="treeview">
+          <a href="#">
+            <i class="ti-files"></i>
+            <span>آپشن های طرح بندی</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="layout_boxed.html"><i class="ti-more"></i>باکسی</a></li>
+            <li><a href="layout_fixed.html"><i class="ti-more"></i>ثابت</a></li>
+            <li><a href="layout_collapsed_sidebar.html"><i class="ti-more"></i>سایدبار مینی</a></li>
+          </ul>
+        </li>
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-user"></i>
+            <span>برنامه های کاربردی</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="app_chat.html"><i class="ti-more"></i>چت</a></li>
+            <li><a href="app_contact.html"><i class="ti-more"></i>مخاطبین / کارمندان</a></li>
+            <li><a href="app_userlist_grid.html"><i class="ti-more"></i>فهرست کاربران به صورت گرید</a></li>
+			<li><a href="app_userlist.html"><i class="ti-more"></i>فهرست کاربران</a></li>
+			<li><a href="app_ticket.html"><i class="ti-more"></i>تیکت پشتیبانی</a></li>
+			<li><a href="app_calendar.html"><i class="ti-more"></i>تقویم</a></li>
+            <li><a href="app_profile.html"><i class="ti-more"></i>پروفایل</a></li>
+            <li><a href="app_taskboard.html"><i class="ti-more"></i>دشبرد پروژه ها</a></li>
+			<li><a href="app_project_table.html"><i class="ti-more"></i>پروژه ها</a></li>			  
+          </ul>
+        </li>
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-email"></i> <span>صندوق پستی</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="mailbox_inbox.html"><i class="ti-more"></i>صندوق ورودی</a></li>
+            <li><a href="mailbox_compose.html"><i class="ti-more"></i>ارسال ایمیل</a></li>
+            <li><a href="mailbox_read_mail.html"><i class="ti-more"></i>خوانده شده</a></li>
+          </ul>
+        </li>
+		  
+        <li class="header nav-small-cap">ویجت ها و رابط کاربری</li>		  
+		  
+        <li class="treeview">
+          <a href="#">
+            <i class="ti-pencil-alt"></i>
+            <span>کامپوننت های رابط کاربری</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="ui_badges.html"><i class="ti-more"></i>نشان ها</a></li>
+            <li><a href="ui_border_utilities.html"><i class="ti-more"></i>حاشیه</a></li>
+            <li><a href="ui_buttons.html"><i class="ti-more"></i>دکمه ها</a></li>	
+            <li><a href="ui_color_utilities.html"><i class="ti-more"></i>رنگ</a></li>
+            <li><a href="ui_dropdown.html"><i class="ti-more"></i>دراپ دان</a></li>
+            <li><a href="ui_dropdown_grid.html"><i class="ti-more"></i>دراپ دان شبکه ای</a></li>
+            <li><a href="ui_typography.html"><i class="ti-more"></i>تایپوگرافی</a></li>
+            <li><a href="ui_progress_bars.html"><i class="ti-more"></i>نوارهای پیشرفت</a></li>
+            <li><a href="ui_grid.html"><i class="ti-more"></i>گرید</a></li>
+            <li><a href="ui_ribbons.html"><i class="ti-more"></i>روبان</a></li>
+            <li><a href="ui_sliders.html"><i class="ti-more"></i>اسلایدرها</a></li>
+            <li><a href="ui_tab.html"><i class="ti-more"></i>تب ها</a></li>
+            <li><a href="ui_timeline.html"><i class="ti-more"></i>تایم لاین</a></li>
+            <li><a href="ui_timeline_horizontal.html"><i class="ti-more"></i>تایم لاین افقی</a></li>
+			<li class="treeview">
+              <a href="#"><i class="ti-more"></i>کامپوننت ها
+                <span class="pull-right-container">
+				  <i class="fa fa-angle-right pull-right"></i>
+				</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="component_bootstrap_switch.html"><i class="ti-more"></i>سوئیچ بوت استرپ</a></li>
+				<li><a href="component_date_paginator.html"><i class="ti-more"></i>صفحه‌بندی تاریخ</a></li>
+				<li><a href="component_media_advanced.html"><i class="ti-more"></i>رسانه های پیشرفته</a></li>
+				<li><a href="component_modals.html"><i class="ti-more"></i>مودال ها</a></li>
+				<li><a href="component_nestable.html"><i class="ti-more"></i>کامپوننت Nestable</a></li>
+				<li><a href="component_notification.html"><i class="ti-more"></i>نوتیفیکیشن</a></li>
+				<li><a href="component_portlet_draggable.html"><i class="ti-more"></i>پورتلت های قابل کشیدن</a></li>
+				<li><a href="component_sweatalert.html"><i class="ti-more"></i>پلاگین Sweet Alert</a></li>
+				<li><a href="component_rangeslider.html"><i class="ti-more"></i>اسلایدر محدوده</a></li>
+				<li><a href="component_rating.html"><i class="ti-more"></i>رتبه بندی</a></li>
+				<li><a href="component_animations.html"><i class="ti-more"></i>انیمیشن ها</a></li>
+              </ul>
+            </li>
+			<li class="treeview">
+              <a href="#"><i class="ti-more"></i>کارت های باکسی
+                <span class="pull-right-container">
+				  <i class="fa fa-angle-right pull-right"></i>
+				</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="box_cards.html"><i class="ti-more"></i>کارت کاربر</a></li>
+				<li><a href="box_advanced.html"><i class="ti-more"></i>کارت پیشرفته</a></li>
+				<li><a href="box_basic.html"><i class="ti-more"></i>کارت اصلی</a></li>
+				<li><a href="box_color.html"><i class="ti-more"></i>رنگ کارت</a></li>
+				<li><a href="box_group.html"><i class="ti-more"></i>کارت گروهی</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>  
+		
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-smallcap"></i>
+            <span>آیکون ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="icons_fontawesome.html"><i class="ti-more"></i>Font Awesome</a></li>
+            <li><a href="icons_glyphicons.html"><i class="ti-more"></i>Glyphicons</a></li>
+            <li><a href="icons_material.html"><i class="ti-more"></i>Material Icons</a></li>	
+            <li><a href="icons_themify.html"><i class="ti-more"></i>Themify Icons</a></li>
+            <li><a href="icons_simpleline.html"><i class="ti-more"></i>Simple Line Icons</a></li>
+            <li><a href="icons_cryptocoins.html"><i class="ti-more"></i>Cryptocoins Icons</a></li>
+            <li><a href="icons_flag.html"><i class="ti-more"></i>Flag Icons</a></li>
+            <li><a href="icons_weather.html"><i class="ti-more"></i>Weather Icons</a></li>
+          </ul>
+        </li> 	  
+        
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-palette"></i>
+            <span>ویجت ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="widgets_blog.html"><i class="ti-more"></i>وبلاگ</a></li>
+            <li><a href="widgets_chart.html"><i class="ti-more"></i>نمودار</a></li>
+
+            <li><a href="widgets_list.html"><i class="ti-more"></i>فهرست</a></li>
+            <li><a href="widgets_social.html"><i class="ti-more"></i>اجتماعی</a></li>
+            <li><a href="widgets_statistic.html"><i class="ti-more"></i>آمار</a></li>
+            <li><a href="widgets_weather.html"><i class="ti-more"></i>آب و هوا</a></li>
+            <li><a href="widgets.html"><i class="ti-more"></i>ویجت ها</a></li>
+          </ul>
+        </li>
+		  
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-envelope"></i>
+            <span>کامپوننت های بیشتر</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="email_index.html"><i class="ti-more"></i>ایمیل ها</a></li>
+			<li class="treeview">
+              <a href="#"><i class="ti-more"></i>نقشه ها
+                <span class="pull-right-container">
+				  <i class="fa fa-angle-right pull-right"></i>
+				</span>
+              </a>
+              <ul class="treeview-menu">
+            	<li><a href="map_google.html"><i class="ti-more"></i>نقشه گوگل</a></li>
+            	<li><a href="map_vector.html"><i class="ti-more"></i>نقشه وکتور</a></li>
+              </ul>
+            </li>
+			<li class="treeview">
+              <a href="#"><i class="ti-more"></i>بیشتر
+                <span class="pull-right-container">
+				  <i class="fa fa-angle-right pull-right"></i>
+				</span>
+              </a>
+              <ul class="treeview-menu">
+            	<li><a href="extension_fullscreen.html"><i class="ti-more"></i>تمام صفحه</a></li>
+				<li><a href="extension_pace.html"><i class="ti-more"></i>سرعت لودینگ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+		  
+		
+        <li class="header nav-small-cap">فرم ها و جداول</li> 
+		
+		
+        <li class="treeview">
+          <a href="#">
+            <i class="ti-write"></i>
+			<span>فرم ها </span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="forms_advanced.html"><i class="ti-more"></i>عناصر پیشرفته</a></li>
+            <li><a href="forms_code_editor.html"><i class="ti-more"></i>ویرایشگر کد</a></li>
+            <li><a href="forms_editor_markdown.html"><i class="ti-more"></i>ویرایشگر Markdown</a></li>
+            <li><a href="forms_editors.html"><i class="ti-more"></i>ویرایشگرها</a></li>
+            <li><a href="forms_validation.html"><i class="ti-more"></i>اعتبارسنجی فرم</a></li>
+            <li><a href="forms_wizard.html"><i class="ti-more"></i>فرم ویزارد</a></li>
+            <li><a href="forms_general.html"><i class="ti-more"></i>عناصر عمومی</a></li>
+            <li><a href="forms_mask.html"><i class="ti-more"></i>فرمتر</a></li>
+            <li><a href="forms_xeditable.html"><i class="ti-more"></i>ویرایشگر Xeditable</a></li>
+            <li><a href="forms_dropzone.html"><i class="ti-more"></i>آپلود فایل</a></li>
+          </ul>
+        </li>
+		  
+        <li class="treeview">
+          <a href="#">
+            <i class="ti-layout-grid4"></i>
+			<span>جداول</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="tables_simple.html"><i class="ti-more"></i>نمونه جداول</a></li>
+            <li><a href="tables_data.html"><i class="ti-more"></i>دیتاتیبل ها</a></li>
+            <li><a href="tables_editable.html"><i class="ti-more"></i>جداول قابل ویرایش</a></li>
+            <li><a href="tables_color.html"><i class="ti-more"></i>رنگ جدول</a></li>
+          </ul>
+        </li>
+		  
+		<li class="header nav-small-cap">صفحات نمونه</li>		  
+		  
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-shield"></i>
+			<span>احراز هویت</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="auth_login.html"><i class="ti-more"></i>ورود</a></li>
+			<li><a href="auth_register.html"><i class="ti-more"></i>ثبت نام</a></li>
+			<li><a href="auth_lockscreen.html"><i class="ti-more"></i>صفحه قفل</a></li>
+			<li><a href="auth_user_pass.html"><i class="ti-more"></i>بازیابی رمزعبور<a></li>	
+          </ul>
+        </li> 		  
+		  
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-alert"></i>
+			<span>صفحات خطا</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+			<li><a href="error_404.html"><i class="ti-more"></i>خطای 404</a></li>
+			<li><a href="error_500.html"><i class="ti-more"></i>خطای 500</a></li>
+			<li><a href="error_maintenance.html"><i class="ti-more"></i>تحت تعمیر</a></li>	
+          </ul>
+        </li>   
+		  
+		<li class="treeview">
+          <a href="#">
+            <i class="ti-files"></i>
+			<span>صفحات نمونه</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="sample_blank.html"><i class="ti-more"></i>خالی</a></li>
+            <li><a href="sample_coming_soon.html"><i class="ti-more"></i>به زودی</a></li>
+            <li><a href="sample_custom_scroll.html"><i class="ti-more"></i>اسکرول سفارشی</a></li>
+			<li><a href="sample_faq.html"><i class="ti-more"></i>سؤالات متداول</a></li>
+			<li><a href="sample_gallery.html"><i class="ti-more"></i>گالری</a></li>
+			<li><a href="sample_lightbox.html"><i class="ti-more"></i>پنجره لایت باکس</a></li>
+			<li><a href="sample_pricing.html"><i class="ti-more"></i>قیمت گذاری</a></li>
+			<li><a href="sample_invoice.html"><i class="ti-more"></i>فاکتور</a></li>
+			<li><a href="sample_invoicelist.html"><i class="ti-more"></i>فهرست فاکتور</a></li>
+          </ul>
+        </li>
+		  
+		  
+		<li class="header nav-small-cap">بیشتر</li>		  
+		  
+        <li class="treeview">
+          <a href="#">
+            <i class="ti-view-list"></i>
+			<span>چند سطحی</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">سطح یک</a></li>
+            <li class="treeview">
+              <a href="#">سطح یک
+                <span class="pull-right-container">
+				  <i class="fa fa-angle-right pull-right"></i>
+				</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#">سطح دو</a></li>
+                <li class="treeview">
+                  <a href="#">سطح دو
+                    <span class="pull-right-container">
+				  		<i class="fa fa-angle-right pull-right"></i>
+					</span>
+                  </a>
+                  <ul class="treeview-menu">
+                    <li><a href="#">سطح سه</a></li>
+                    <li><a href="#">سطح سه</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">سطح یک</a></li>
+          </ul>
+        </li>  
+		  
+		<li>
+          <a href="auth_login.html">
+            <i class="ti-power-off"></i>
+			<span>خروج</span>
+          </a>
+        </li> 
+        
+      </ul>
+    </section>
+  </aside>
+  
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+	  <div class="container-full">
+		<!-- Content Header (Page header) -->
+		<div class="content-header">
+			<h3>
+				ارزش بازار
+		  	</h3>
+		  	<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> صفحه اصلی </a></li>
+				<li class="breadcrumb-item"><a href="#">گزارشات</a></li>
+				<li class="breadcrumb-item active">ارزش بازار</li>
+		  	</ol>
+		</div>
+
+		<!-- Main content -->
+		<section class="content">
+		  <div class="row">
+			<div class="col-12">
+				<div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">مجموع سرمایه بازار</h4>
+					</div>
+					<div class="box-body">
+						<div class="table-responsive">
+							<table class="table table-bordered dataTable no-footer table-striped" id="dataTable_crypto" role="grid">
+							  <thead>
+								 <tr role="row">
+									<th colspan="2" rowspan="1">ارز </th>
+									<th class="text-left">قیمت (دلار)</th>
+									<th class="text-left">ارزش بازار</th>
+									<th class="text-left">حجم 24 ساعت</th>
+									<th class="text-left">تغییر % (1 ساعت)</th>
+									<th class="text-left">تغییر % (24 ساعت)</th>
+									<th class="text-left">تغییر % (7 روز)</th>
+									<th class="text-left">نمودار</th>
+								 </tr>
+							  </thead>
+							   <tbody>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc BTC" title="BTC"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> بیت کوین </a></small>
+										<h6 class="text-muted">BTC</h6>
+									 </td>
+									 <td class="text-left"><p>12,723.40</p></td>
+									 <td class="text-left"><p>312,078,267,295</p></td>
+									 <td class="text-left"><p>123,950,900,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.82%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 17.96%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -15.20%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc ETH" title="ETH"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> اتریوم </a></small>
+										<h6 class="text-muted">ETH</h6>
+									 </td>
+									 <td class="text-left"><p>123,070.39</p></td>
+									 <td class="text-left"><p>123,892,495,504</p></td>
+									 <td class="text-left"><p>7,123,310,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.28%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 26.13%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -11.74%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,5,5,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc XRP" title="XRP"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> ریپل </a></small>
+										<h6 class="text-muted">XRP</h6>
+									 </td>
+									 <td class="text-left"><p>1123.64</p></td>
+									 <td class="text-left"><p>132,391,183,730</p></td>
+									 <td class="text-left"><p>132,143,400,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -0.12%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 66.62%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -16.44%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,20,10,10,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc ADA" title="ADA"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> کاردانو </a></small>
+										<h6 class="text-muted">ADA</h6>
+									 </td>
+									 <td class="text-left"><p>123.68</p></td>
+									 <td class="text-left"><p>123,643,890,043</p></td>
+									 <td class="text-left"><p>123,687,430,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.40%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 40.76%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -5.91%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,20,10,10,14,16,15,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc LTC" title="LTC"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> لایت کوین </a></small>
+										<h6 class="text-muted">LTC</h6>
+									 </td>
+									 <td class="text-left"><p>123.88</p></td>
+									 <td class="text-left"><p>123,901,285,520</p></td>
+									 <td class="text-left"><p>123,235,390,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.56%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 26.96%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -15.74%</label></td>
+									 <td><a href="#"><span class="sparklines">18,14,10,10,11,14,14,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc XEM" title="XEM"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> نم </a></small>
+										<h6 class="text-muted">XEM</h6>
+									 </td>
+									 <td class="text-left"><p>123.11</p></td>
+									 <td class="text-left"><p>45,996,569,999</p></td>
+									 <td class="text-left"><p>45543,335,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.35%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 43.32%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -19.62%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc NEO" title="NEO"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> نئو </a></small>
+										<h6 class="text-muted">NEO</h6>
+									 </td>
+									 <td class="text-left"><p>544.15</p></td>
+									 <td class="text-left"><p>543,694,490,000</p></td>
+									 <td class="text-left"><p>453,304,130,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -4.32%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 36.90%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 31.05%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc DASH" title="DASH"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> دش</a></small>
+										<h6 class="text-muted">DASH</h6>
+									 </td>
+									 <td class="text-left"><p>5435.27</p></td>
+									 <td class="text-left"><p>5435,771,308,110</p></td>
+									 <td class="text-left"><p>4535,439,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -0.94%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 30.83%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -16.47%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc EOS" title="EOS"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> ایاس </a></small>
+										<h6 class="text-muted">ایاس</h6>
+									 </td>
+									 <td class="text-left"><p>354.57</p></td>
+									 <td class="text-left"><p>4534,460,354,540</p></td>
+									 <td class="text-left"><p>543,566,560,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -4.17%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 25.84%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -6.43%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc XMR" title="XMR"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> مونرو </a></small>
+										<h6 class="text-muted">XMR</h6>
+									 </td>
+									 <td class="text-left"><p>543.11</p></td>
+									 <td class="text-left"><p>453,249,235,883</p></td>
+									 <td class="text-left"><p>4534,650,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.92%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 28.27%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -9.78%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc ETC" title="ETC"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> اتریوم کلاسیک </a></small>
+										<h6 class="text-muted">ETC</h6>
+									 </td>
+									 <td class="text-left"><p>453.35</p></td>
+									 <td class="text-left"><p>453,109,936,842</p></td>
+									 <td class="text-left"><p>434,273,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -4.03%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 24.92%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -8.33%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc QTUM" title="QTUM"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> کوانتوم </a></small>
+										<h6 class="text-muted">QTUM</h6>
+									 </td>
+									 <td class="text-left"><p>453.18</p></td>
+									 <td class="text-left"><p>453,817,991,874</p></td>
+									 <td class="text-left"><p>453,043,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -3.16%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 26.87%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -21.11%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc LSK" title="LSK"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> لیسک </a></small>
+										<h6 class="text-muted">LSK</h6>
+									 </td>
+									 <td class="text-left"><p>453.77</p></td>
+									 <td class="text-left"><p>453,784,607,027</p></td>
+									 <td class="text-left"><p>453,214,400</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.97%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 38.82%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -9.49%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc OMG" title="OMG"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> اومیسه گو </a></small>
+										<h6 class="text-muted">OMG</h6>
+									 </td>
+									 <td class="text-left"><p>453.79</p></td>
+									 <td class="text-left"><p>543,916,950,969</p></td>
+									 <td class="text-left"><p>453,669,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.55%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 38.28%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -17.04%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc USDT" title="USDT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> تتر </a></small>
+										<h6 class="text-muted">USDT</h6>
+									 </td>
+									 <td class="text-left"><p>4534.03</p></td>
+									 <td class="text-left"><p>543,672,345,408</p></td>
+									 <td class="text-left"><p>453,941,850,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 0.78%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 1.93%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 3.13%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc XVG" title="XVG"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> ورج </a></small>
+										<h6 class="text-muted">XVG</h6>
+									 </td>
+									 <td class="text-left"><p>0.11</p></td>
+									 <td class="text-left"><p>1,663,900,911</p></td>
+									 <td class="text-left"><p>261,147,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -6.63%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 70.25%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -25.29%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc ZEC" title="ZEC"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> زی کش </a></small>
+										<h6 class="text-muted">ZEC</h6>
+									 </td>
+									 <td class="text-left"><p>453.40</p></td>
+									 <td class="text-left"><p>534,636,048,635</p></td>
+									 <td class="text-left"><p>453,861,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -0.95%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 25.30%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -20.25%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,20,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc STRAT" title="STRAT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> استراتیس </a></small>
+										<h6 class="text-muted">STRAT</h6>
+									 </td>
+									 <td class="text-left"><p>867.53</p></td>
+									 <td class="text-left"><p>786,532,582,626</p></td>
+									 <td class="text-left"><p>786,016,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.87%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 34.40%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -8.87%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc ARDR" title="ARDR"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> آردور </a></small>
+										<h6 class="text-muted">ARDR</h6>
+									 </td>
+									 <td class="text-left"><p>867.48</p></td>
+									 <td class="text-left"><p>786,482,804,960</p></td>
+									 <td class="text-left"><p>786,149,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger"  dir="ltr"><i class="fa fa-chevron-down"></i> -4.61%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success"  dir="ltr"><i class="fa fa-chevron-up"></i> 29.43%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success"  dir="ltr"><i class="fa fa-chevron-up"></i> 7.45%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc BCN" title="BCN"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> بایت کوین </a></small>
+										<h6 class="text-muted">BCN</h6>
+									 </td>
+									 <td class="text-left"><p>456.01</p></td>
+									 <td class="text-left"><p>1546,465,618,587</p></td>
+									 <td class="text-left"><p>45,811,700</p></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 0.63%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 54.15%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -21.15%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc STEEM" title="STEEM"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> استیم </a></small>
+										<h6 class="text-muted">STEEM</h6>
+									 </td>
+									 <td class="text-left"><p>4456.45</p></td>
+									 <td class="text-left"><p>1546,100,959,745</p></td>
+									 <td class="text-left"><p>25465,037,000</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.88%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 42.02%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -6.83%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc BTS" title="BTS"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> بیت شیرز </a></small>
+										<h6 class="text-muted">BTS</h6>
+									 </td>
+									 <td class="text-left"><p>546.36</p></td>
+									 <td class="text-left"><p>546,934,004</p></td>
+									 <td class="text-left"><p>546,824,700</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -3.65%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 35.07%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -39.46%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc DOGE" title="DOGE"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> دوج کوین </a></small>
+										<h6 class="text-muted">DOGE</h6>
+									 </td>
+									 <td class="text-left"><p>456.01</p></td>
+									 <td class="text-left"><p>941,142,659</p></td>
+									 <td class="text-left"><p>63,248,100</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.44%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 39.99%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -30.79%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc WAVES" title="WAVES"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> ویوز </a></small>
+										<h6 class="text-muted">WAVES</h6>
+									 </td>
+									 <td class="text-left"><p>53.78</p></td>
+									 <td class="text-left"><p>35,976,000</p></td>
+									 <td class="text-left"><p>654,506,800</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.76%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 22.61%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -23.42%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc REP" title="REP"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> آگر </a></small>
+										<h6 class="text-muted">REP</h6>
+									 </td>
+									 <td class="text-left"><p>567.95</p></td>
+									 <td class="text-left"><p>789,479,700</p></td>
+									 <td class="text-left"><p>345,136,300</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.58%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 31.27%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -36.46%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc KMD" title="KMD"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> کومودو </a></small>
+										<h6 class="text-muted">KMD</h6>
+									 </td>
+									 <td class="text-left"><p>532.81</p></td>
+									 <td class="text-left"><p>35,469,055</p></td>
+									 <td class="text-left"><p>567,785,800</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.38%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 48.65%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -11.35%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc DGB" title="DGB"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> دیجی بایت </a></small>
+										<h6 class="text-muted">DGB</h6>
+									 </td>
+									 <td class="text-left"><p>567.07</p></td>
+									 <td class="text-left"><p>235,577,239</p></td>
+									 <td class="text-left"><p>35,695,200</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.55%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 40.31%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -30.83%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc ARK" title="ARK"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> آرک </a></small>
+										<h6 class="text-muted">ARK</h6>
+									 </td>
+									 <td class="text-left"><p>35.65</p></td>
+									 <td class="text-left"><p>56,050,748</p></td>
+									 <td class="text-left"><p>568,076,300</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -0.91%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 42.48%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -24.47%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc SALT" title="SALT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> سالت </a></small>
+										<h6 class="text-muted">SALT</h6>
+									 </td>
+									 <td class="text-left"><p>768.99</p></td>
+									 <td class="text-left"><p>685,586,223</p></td>
+									 <td class="text-left"><p>586,684,300</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -0.53%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 35.98%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -24.19%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc BAT" title="BAT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> بت </a></small>
+										<h6 class="text-muted">BAT</h6>
+									 </td>
+									 <td class="text-left"><p>456.63</p></td>
+									 <td class="text-left"><p>5435,186,000</p></td>
+									 <td class="text-left"><p>435,758,900</p></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -4.29%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 63.56%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -10.68%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc GNT" title="GNT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> گولم </a></small>
+										<h6 class="text-muted">GNT</h6>
+									 </td>
+									 <td class="text-left"><p>235.73</p></td>
+									 <td class="text-left"><p>235,448,133</p></td>
+									 <td class="text-left"><p>235,969,100</p></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 2.46%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 39.84%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -15.94%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc DCR" title="DCR"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> دیکر </a></small>
+										<h6 class="text-muted">DCR</h6>
+									 </td>
+									 <td class="text-left"><p>463.31</p></td>
+									 <td class="text-left"><p>346,798,364</p></td>
+									 <td class="text-left"><p>346,615,730</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.64%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 26.37%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -15.64%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc GBYTE" title="GBYTE"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> اوبیت </a></small>
+										<h6 class="text-muted">GBYTE</h6>
+									 </td>
+									 <td class="text-left"><p>436.48</p></td>
+									 <td class="text-left"><p>436,397,493</p></td>
+									 <td class="text-left"><p>2346505,740</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.06%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 54.71%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 24.96%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc PIVX" title="PIVX"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> پیو اکس </a></small>
+										<h6 class="text-muted">PIVX</h6>
+									 </td>
+									 <td class="text-left"><p>67.66</p></td>
+									 <td class="text-left"><p>567,842,023</p></td>
+									 <td class="text-left"><p>435,726,770</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.13%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 22.92%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -22.99%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc FCT" title="FCT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> فکتوم </a></small>
+										<h6 class="text-muted">FCT</h6>
+									 </td>
+									 <td class="text-left"><p>435.78</p></td>
+									 <td class="text-left"><p>23,580,828</p></td>
+									 <td class="text-left"><p>43,881,500</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.58%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 38.03%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -21.28%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc RDD" title="RDD"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> رد کوین </a></small>
+										<h6 class="text-muted">RDD</h6>
+									 </td>
+									 <td class="text-left"><p>756.01</p></td>
+									 <td class="text-left"><p>567,219,857</p></td>
+									 <td class="text-left"><p>12439,938,500</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -3.70%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 71.16%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -24.34%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc DGD" title="DGD"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> دیجیکس دائو </a></small>
+										<h6 class="text-muted">DGD</h6>
+									 </td>
+									 <td class="text-left"><p>234.04</p></td>
+									 <td class="text-left"><p>324,070,000</p></td>
+									 <td class="text-left"><p>234,433,200</p></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 0.25%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 18.68%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -3.47%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc SYS" title="SYS"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> سیس کوین </a></small>
+										<h6 class="text-muted">SYS</h6>
+									 </td>
+									 <td class="text-left"><p>234.70</p></td>
+									 <td class="text-left"><p>234,041,676</p></td>
+									 <td class="text-left"><p>7654089,720</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.43%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 37.39%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -10.68%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc MONA" title="MONA"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> مونا کوین </a></small>
+										<h6 class="text-muted">MONA</h6>
+									 </td>
+									 <td class="text-left"><p>56.53</p></td>
+									 <td class="text-left"><p>546,827,916</p></td>
+									 <td class="text-left"><p>34,624,600</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -0.56%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 27.45%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -17.58%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc MAID" title="MAID"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> میدسیف کوین </a></small>
+										<h6 class="text-muted">MAID</h6>
+									 </td>
+									 <td class="text-left"><p>234.76</p></td>
+									 <td class="text-left"><p>24,003,814</p></td>
+									 <td class="text-left"><p>546,891,280</p></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 0.18%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 26.44%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -21.25%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc NXT" title="NXT"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> ان اکس تی </a></small>
+										<h6 class="text-muted">NXT</h6>
+									 </td>
+									 <td class="text-left"><p>546.34</p></td>
+									 <td class="text-left"><p>57,585,059</p></td>
+									 <td class="text-left"><p>543,466,200</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -3.02%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 39.71%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -19.76%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc XZC" title="XZC"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> زد کوین </a></small>
+										<h6 class="text-muted">XZC</h6>
+									 </td>
+									 <td class="text-left"><p>534.10</p></td>
+									 <td class="text-left"><p>7567,352,936</p></td>
+									 <td class="text-left"><p>235,700,890</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.86%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 27.82%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -19.19%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc GAME" title="GAME"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> گیم کردیتس </a></small>
+										<h6 class="text-muted">GAME</h6>
+									 </td>
+									 <td class="text-left"><p>325.83</p></td>
+									 <td class="text-left"><p>352,078,970</p></td>
+									 <td class="text-left"><p>756,081,870</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.93%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 34.00%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -18.16%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc PART" title="PART"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> پارتیکل </a></small>
+										<h6 class="text-muted">PART</h6>
+									 </td>
+									 <td class="text-left"><p>567.83</p></td>
+									 <td class="text-left"><p>5678,053,213</p></td>
+									 <td class="text-left"><p>53,687</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -1.80%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 32.53%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 32.35%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc GNO" title="GNO"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> گنوسیس </a></small>
+										<h6 class="text-muted">GNO</h6>
+									 </td>
+									 <td class="text-left"><p>45.20</p></td>
+									 <td class="text-left"><p>3,783,464</p></td>
+									 <td class="text-left"><p>567,359,600</p></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 0.95%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 53.11%</label></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -26.89%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+								  <tr role="row">
+									 <td><span><a href="#"><i class="cc EMC" title="EMC"></i></a></span></td>
+									 <td>
+										<small><a href="#" class="hover-warning"> اینشتینیم </a></small>
+										<h6 class="text-muted">EMC</h6>
+									 </td>
+									 <td class="text-left"><p>567.52</p></td>
+									 <td class="text-left"><p>435,738,319</p></td>
+									 <td class="text-left"><p>543,293,630</p></td>
+									<td class="no-wrap text-left"><label class="label label-danger" dir="ltr"><i class="fa fa-chevron-down"></i> -2.01%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 30.30%</label></td>
+									 <td class="no-wrap text-left"><label class="label label-success" dir="ltr"><i class="fa fa-chevron-up"></i> 2.43%</label></td>
+									 <td><a href="#"><span class="sparklines">8,4,0,0,1,4,4,10,10,0,0,4,6,5,9,10</span></a></td>
+								  </tr>
+							   </tbody>
+							</table>
+						</div>
+					</div>
+					<!-- /.box-body -->
+				  </div>
+			</div>
+		  </div>
+		</section>
+		<!-- /.content -->
+	  
+	  </div>
+  </div>
+  <!-- /.content-wrapper -->
+ 
+   <footer class="main-footer">
+    <div class="pull-right d-none d-sm-inline-block">
+        <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+		  <li class="nav-item">
+			<a class="nav-link" href="javascript:void(0)">سؤالات متداول</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="https://www.rtl-theme.com/author/arezo-h/">الان بخرید</a>
+		  </li>
+		</ul>
+    </div>
+	  <a href="#"> آرزو حسینی   2022 </a>
+  </footer>
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-light">
+	  
+	<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>  <!-- Create the tabs -->
+    <ul class="nav nav-tabs control-sidebar-tabs">
+      <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab">چت</a></li>
+      <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab">کارها</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane" id="control-sidebar-home-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey">
+				<i class="ti-more"></i>
+			</a>	
+			<p>کاربران</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+		  <div class="lookup lookup-sm lookup-right d-none d-lg-block">
+			<input type="text" name="s" placeholder="دنبال چی میگردی ... ؟!" class="w-p100">
+		  </div>
+          <div class="media-list media-list-hover mt-20">
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>تینا کریمی</strong></a>
+				</p>
+				<p>این نمودار رو در کدوم وبسایت  ... </p>
+				  <span>همین الان</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>لیلی امیری </strong></a>
+				</p>
+				<p>دوج کوین یکم بیاد پایین ... </p>
+				  <span>33 دقیقه قبل</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>احسان اسدی</strong></a>
+				</p>
+				<p>سلام من یه سری ارز از صرافی ...</p>
+				  <span>42 دقیقه قبل</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>احسان اسدی</strong></a>
+				</p>
+				<p>سلام من یه سری ارز از صرافی ...</p>
+				  <span>42 دقیقه قبل</span>
+			  </div>
+			</div>			
+			
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>تینا کریمی</strong></a>
+				</p>
+				<p>این نمودار رو در کدوم وبسایت  ... </p>
+				  <span>همین الان</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>لیلی امیری </strong></a>
+				</p>
+				<p>دوج کوین یکم بیاد پایین ... </p>
+				  <span>33 دقیقه قبل</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>احسان اسدی</strong></a>
+				</p>
+				<p>سلام من یه سری ارز از صرافی ...</p>
+				  <span>42 دقیقه قبل</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>احسان اسدی</strong></a>
+				</p>
+				<p>سلام من یه سری ارز از صرافی ...</p>
+				  <span>42 دقیقه قبل</span>
+			  </div>
+			</div>
+			  
+		  </div>
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey">
+				<i class="ti-more"></i>
+			</a>	
+			<p>فهرست کارها</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+        <ul class="todo-list mt-20">
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_51" class="filled-in">
+			  <label for="basic_checkbox_51" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">خوردن قرص ویتامین</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i>   2 دقیقه</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_52" class="filled-in">
+			  <label for="basic_checkbox_52" class="mb-0 h-15"></label>
+			  <span class="text-line">جلسه کاری با مدیر شرکت</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 ساعت </small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_53" class="filled-in">
+			  <label for="basic_checkbox_53" class="mb-0 h-15"></label>
+			  <span class="text-line">بررسی نمودار ارزها</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i>  1 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_54" class="filled-in">
+			  <label for="basic_checkbox_54" class="mb-0 h-15"></label>
+			  <span class="text-line">سفر کاری</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i>  3 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_55" class="filled-in">
+			  <label for="basic_checkbox_55" class="mb-0 h-15"></label>
+			  <span class="text-line">اجرای پروژه جدید</span>
+			  <small class="badge bg-primary"><i class="fa fa-clock-o"></i>  1 هفته</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_56" class="filled-in">
+			  <label for="basic_checkbox_56" class="mb-0 h-15"></label>
+			  <span class="text-line">جایگزین کردن سایت جدید شرکت</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 1 ماه</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_57" class="filled-in">
+			  <label for="basic_checkbox_57" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">خوردن قرص ویتامین</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i>   2 دقیقه</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_58" class="filled-in">
+			  <label for="basic_checkbox_58" class="mb-0 h-15"></label>
+			  <span class="text-line">جلسه کاری با مدیر شرکت</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 ساعت </small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_59" class="filled-in">
+			  <label for="basic_checkbox_59" class="mb-0 h-15"></label>
+			  <span class="text-line">بررسی نمودار ارزها</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i>  1 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_60" class="filled-in">
+			  <label for="basic_checkbox_60" class="mb-0 h-15"></label>
+			  <span class="text-line">سفر کاری</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i>  3 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+		  </ul>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+  
+  <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+
+	<!-- jQuery 3 -->
+	<script src="../../assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+	
+	<!-- fullscreen -->
+	<script src="../../assets/vendor_components/screenfull/screenfull.js"></script>
+	
+	<!-- popper -->
+	<script src="../../assets/vendor_components/popper/dist/popper.min.js"></script>
+	
+	<!-- Bootstrap 4.0-->
+	<script src="../../assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+	<!-- SlimScroll -->
+	<script src="../../assets/vendor_components/jquery-slimscroll/jquery.slimscroll-rtl.min.js"></script>
+	
+	<!-- FastClick -->
+	<script src="../../assets/vendor_components/fastclick/lib/fastclick.js"></script>
+	
+	<!-- This is data table -->
+    <script src="../../assets/vendor_components/datatable/datatables.min.js"></script>
+	<script src="../js/pages/market-capitalizations.js"></script>
+	
+	<!-- Sparkline -->
+	<script src="../../assets/vendor_components/jquery-sparkline/dist/jquery.sparkline-fa.min.js"></script>
+	
+	<!-- Crypto Admin App -->
+	<script src="../js/template.js"></script>
+	
+	<!-- Crypto Admin for demo purposes -->
+	<script src="../js/demo.js"></script>
+	
+
+</body>
+</html>
